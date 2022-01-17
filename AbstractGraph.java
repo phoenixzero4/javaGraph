@@ -3,6 +3,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public abstract class AbstractGraph<V> implements Graph<V> {
+
 	protected List<V> vertices = new ArrayList<>();
 	protected List<List<Edge>> neighbors = new ArrayList<>(); // adjacency lists
 
